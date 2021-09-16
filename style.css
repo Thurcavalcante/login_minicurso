@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #eeefee;
+    font-family: Arial;
+}
+
+.titulo {
+    width: 500px;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.titulo img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+.titulo figcaption {
+    margin: -20px 0px 0px 27px;
+    text-align: left;
+}
+
+.conta {
+    width: 300px;
+}
+
+.login {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(1, 66, 66);
+    border-radius: 10px;
+}
+
+.login form {
+    width: 100%;
+}
+
+.login input {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#btentrar {
+      width: 100%;  
+      height: 40px;
+      background-color: teal;
+      border: #06657c;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+      border-radius: 5px;
+
+}
+
+#btentrar:hover {
+    background-color: rgb(7, 151, 151);
+}
+
+#btcriarconta {
+    height: 35px;
+    font-weight: bolder;
+    background-color: #00aa00;
+    color: white;
+    border-radius: #59c01d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btcriarconta:hover{
+    background-color: #066e06;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#esqueci {
+    color: rgb(234, 236, 241);
+}
+
+#pagina {
+    text-align: center;
+    font-size: 11px;
+}
